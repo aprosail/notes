@@ -18,5 +18,6 @@ yarn.lock
 *.sln
 *.swp
 
-# Vitepress dev caches.
+# Vitepress caches and output.
 .vitepress/cache
+.vitepress/dist
