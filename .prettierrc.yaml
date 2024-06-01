@@ -1,3 +1,6 @@
 # TypeScript options.
 semi: false
 bracketSpacing: false
+
+# Markdown options.
+proseWrap: always
