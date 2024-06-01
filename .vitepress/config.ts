@@ -3,7 +3,7 @@ import {defineConfig} from "vitepress"
 export default defineConfig({
   title: "Shared notes",
   description: "Shared online notebook.",
-  outDir: "public",
+  base: "/notes",
   themeConfig: {
     nav: [
       {text: "Home", link: "/"},
