@@ -1,0 +1,14 @@
+{
+  // Common editor options.
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+
+  // Format on save options.
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {"source.organizeImports": "always"},
+  "[shellscript]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
+  "[properties]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
+  "[ignore]": {"editor.defaultFormatter": "foxundermoon.shell-format"}
+}
