@@ -11,6 +11,9 @@ hero:
       link: /docs/preface
     - theme: alt
       text: 观看视频
+      link: https://space.bilibili.com/1030736671
+    - theme: alt
+      text: 下载源码
       link: https://github.com/aprosail/notes
 
 features:
