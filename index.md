@@ -14,8 +14,12 @@ hero:
       link: https://github.com/aprosail/notes
 
 features:
-  - title: 零基础/低门槛
-    details: 对每个步骤的原理都有精确讲解。unfinished.
+  - title: 视频教程
+    details: >
+      视频教程托管于 Bilibili，
+      对每个步骤的原理都有精确讲解，
+      便于零基础初学者理解，
+      同时也欢迎评论区或 PRs 讨论。
   - title: 开源免费
     details: >
       源代码托管于 GitHub，使用 CC0 知识共享协议，
