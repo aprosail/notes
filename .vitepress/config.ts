@@ -7,9 +7,7 @@ export default defineConfig({
   base: "/notes",
   themeConfig: {
     logo: "/avatar.png",
-    search: {
-      provider: "local",
-    },
+    search: {provider: "local"},
     nav: [
       {text: "首页", link: "/"},
       {text: "通用基础", link: "/docs/preface.md"},
