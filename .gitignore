@@ -17,3 +17,6 @@ yarn.lock
 *.iws
 *.sln
 *.swp
+
+# Vitepress dev caches.
+.vitepress/cache
