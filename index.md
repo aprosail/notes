@@ -23,5 +23,7 @@ features:
       页面由 VuePress 构建，可在本地自行搭建预览。
   - title: 笔记检索
     details: >
-      unfinished.
+      在网页中借助 VitePress 的搜索功能，
+      可通过关键字检索笔记内容。
+      笔记与视频相链接，便于快速查找相关知识点。
 ---
