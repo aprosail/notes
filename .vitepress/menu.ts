@@ -50,5 +50,12 @@ export const menu: DefaultTheme.Sidebar = [
   {
     text: "8. 开源社区入门指南",
     link: "/docs/open.md",
+    items: [
+      {text: "8.1 开源协议简介(license)", link: "/docs/open/licenses.md"},
+      {text: "8.2 如何探讨问题(issues)", link: "/docs/open/issues.md"},
+      {text: "8.3 如何贡献代码(PRs)", link: "/docs/open/prs.md"},
+      {text: "8.4 仓库自述文件(readme)", link: "/docs/open/readmes.md"},
+      {text: "8.5 更改记录文件(changelog)", link: "/docs/unfinished.md"},
+    ],
   },
 ]
