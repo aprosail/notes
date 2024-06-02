@@ -36,6 +36,20 @@ export default defineConfig({
       },
       {icon: "github", link: "https://github.com/aprosail/notes"},
     ],
+    outline: {label: "页面大纲"},
+    docFooter: {prev: "前页", next: "后页"},
+    editLink: {
+      text: "在 GitHub 上编辑此页面",
+      pattern: "https://github.com/aprosail/notes/edit/dev/:path",
+    },
+    lastUpdated: {
+      text: "最近更新时间",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "medium",
+        forceLocale: true,
+      },
+    },
     sidebar: [
       {
         text: "序言部分",
