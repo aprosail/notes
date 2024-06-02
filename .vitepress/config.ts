@@ -1,7 +1,20 @@
 import {defineConfig} from "vitepress"
+import {chineseSearchOptimize, pagefindPlugin} from "vitepress-plugin-pagefind"
 import {icons} from "./icons"
 
 export default defineConfig({
+  vite: {
+    plugins: [
+      pagefindPlugin({
+        btnPlaceholder: "全局搜索",
+        placeholder: "全局搜索关键词",
+        emptyText: "找不到相关内容",
+        heading: "共: {{searchResult}} 条结果",
+        customSearchQuery: chineseSearchOptimize,
+      }),
+    ],
+  },
+  lang: "zh-cn",
   title: "笔记分享",
   description: "零基础跨平台应用开发系列",
   base: "/notes",
