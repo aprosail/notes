@@ -8,3 +8,4 @@
    please make sure your editor is configured before contributing.
 4. This repository is licensed under
    [CC0](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en),
+   feel free to use the notes and codes as you wish.
