@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "christian-kohler.path-intellisense",
+    "yzhang.markdown-all-in-one",
+    "foxundermoon.shell-format",
+    "redhat.vscode-yaml"
+  ]
+}

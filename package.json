@@ -5,11 +5,14 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
   "devDependencies": {
+    "prettier": "^3.2.5",
     "vitepress": "^1.2.2"
   }
 }
