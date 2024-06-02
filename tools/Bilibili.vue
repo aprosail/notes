@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-  import {defineProps} from "vue"
-  const props = defineProps({vid: {type: String, required: true}})
+  //@ts-ignore
+  defineProps({vid: {type: String, required: true}})
 </script>
 
 <template>
