@@ -36,7 +36,7 @@ export default defineConfig({
       },
       {icon: "github", link: "https://github.com/aprosail/notes"},
     ],
-    outline: {label: "页面大纲"},
+    outline: {label: "页面大纲", level: [2, 3]},
     docFooter: {prev: "前页", next: "后页"},
     editLink: {
       text: "在 GitHub 上编辑此页面",
@@ -52,40 +52,53 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: "序言部分",
+        text: "0. 序言部分",
         link: "/docs/preface.md",
-        // items: [],
+        items: [
+          {text: "0.1 原则声明", link: "/docs/preface/announce.md"},
+          {text: "0.2 编程英语", link: "/docs/preface/english.md"},
+          {text: "0.3 编程语言杂谈", link: "/docs/preface/language.md"},
+          {text: "0.4 Windows使用技巧", link: "/docs/preface/windows.md"},
+          {text: "0.5 macOS使用技巧", link: "/docs/preface/macos.md"},
+        ],
       },
       {
-        text: "代码编辑器",
+        text: "1. 代码编辑器",
         link: "/docs/editor.md",
       },
       {
-        text: "版本控制系统",
+        text: "2. 版本控制系统",
         link: "/docs/vcs.md",
       },
       {
-        text: "Node基础",
+        text: "3. Node基础",
         link: "/docs/node.md",
       },
       {
-        text: "网页开发",
+        text: "4. 网页开发",
         link: "/docs/frontend.md",
       },
       {
-        text: "网页打包应用",
+        text: "5. 网页打包应用",
         link: "/docs/electron.md",
       },
       {
-        text: "Flutter应用开发",
+        text: "6. Flutter跨平台应用开发",
         link: "/docs/flutter.md",
+        items: [
+          {text: "6.1 下载和配置FlutterSDK", link: "/docs/flutter/clone.md"},
+          {text: "6.2 Windows安装Flutter", link: "/docs/flutter/windows.md"},
+          {text: "6.3 macOS安装Xcode", link: "/docs/flutter/xcode.md"},
+          {text: "6.4 macOS安装CocoaPods", link: "/docs/flutter/pods.md"},
+          {text: "6.5 macOS安装Flutter", link: "/docs/flutter/macos.md"},
+        ],
       },
       {
-        text: "Go编程语言基础",
+        text: "7. Go编程语言基础",
         link: "/docs/go.md",
       },
       {
-        text: "开源社区入门指南",
+        text: "8. 开源社区入门指南",
         link: "/docs/open.md",
       },
     ],
