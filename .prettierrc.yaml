@@ -1,3 +1,4 @@
 # TypeScript options.
 semi: false
 bracketSpacing: false
+vueIndentScriptAndStyle: true
