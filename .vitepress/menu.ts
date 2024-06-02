@@ -7,7 +7,7 @@ export const menu: DefaultTheme.Sidebar = [
     items: [
       {text: "0.1 原则声明", link: "/docs/preface/announce.md"},
       {text: "0.2 编程英语", link: "/docs/preface/english.md"},
-      {text: "0.3 编程语言杂谈", link: "/docs/preface/language.md"},
+      {text: "0.3 编程语言杂谈", link: "/docs/preface/languages.md"},
       {text: "0.4 Windows使用技巧", link: "/docs/preface/windows.md"},
       {text: "0.5 macOS使用技巧", link: "/docs/preface/macos.md"},
     ],
