@@ -19,36 +19,33 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
   div.area {
     margin-top: 16px;
     margin-bottom: 50px;
-  }
-
-  div.area > div.container {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%;
-    overflow: hidden;
-    border-radius: 16.18px;
-  }
-
-  div.area > div.container > iframe.player {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  div.area > div.comments {
-    margin-top: 10px;
-    margin-left: 65px;
-    margin-right: 65px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 50%;
+    div.container {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      overflow: hidden;
+      border-radius: 16.18px;
+      iframe.player {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    div.comments {
+      margin-top: 10px;
+      margin-left: 65px;
+      margin-right: 65px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 50%;
+    }
   }
 </style>
