@@ -59,8 +59,9 @@ export const menu: DefaultTheme.Sidebar = [
       {text: "8.3 如何贡献代码(PRs)", link: "/docs/open/prs.md"},
       {text: "8.4 仓库自述文件(readme)", link: "/docs/open/readmes.md"},
       {text: "8.5 更改记录文件(changelog)", link: "/docs/unfinished.md"},
-      {text: "8.6 组织内部版本杂谈", link: "/docs/unfinished.md"},
-      {text: "8.7 搭建VitePress文档", link: "/docs/open/vitepress.md"},
+      {text: "8.6 分支管理建议", link: "/docs/unfinished.md"},
+      {text: "8.7 组织内部版本杂谈", link: "/docs/unfinished.md"},
+      {text: "8.8 搭建VitePress文档", link: "/docs/open/vitepress.md"},
     ],
   },
 ]
