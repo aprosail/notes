@@ -1,6 +1,7 @@
 import {defineConfig} from "vitepress"
 import {chineseSearchOptimize, pagefindPlugin} from "vitepress-plugin-pagefind"
 import {icons} from "./icons"
+import {menu} from "./menu"
 
 export default defineConfig({
   vite: {
@@ -36,44 +37,20 @@ export default defineConfig({
       },
       {icon: "github", link: "https://github.com/aprosail/notes"},
     ],
-    sidebar: [
-      {
-        text: "序言部分",
-        link: "/docs/preface.md",
-        // items: [],
+    sidebar: menu,
+    outline: {label: "页面大纲", level: [2, 3]},
+    docFooter: {prev: "前页", next: "后页"},
+    editLink: {
+      text: "在 GitHub 上编辑此页面",
+      pattern: "https://github.com/aprosail/notes/edit/dev/:path",
+    },
+    lastUpdated: {
+      text: "最近更新时间",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "medium",
+        forceLocale: true,
       },
-      {
-        text: "代码编辑器",
-        link: "/docs/editor.md",
-      },
-      {
-        text: "版本控制系统",
-        link: "/docs/vcs.md",
-      },
-      {
-        text: "Node基础",
-        link: "/docs/node.md",
-      },
-      {
-        text: "网页开发",
-        link: "/docs/frontend.md",
-      },
-      {
-        text: "网页打包应用",
-        link: "/docs/electron.md",
-      },
-      {
-        text: "Flutter应用开发",
-        link: "/docs/flutter.md",
-      },
-      {
-        text: "Go编程语言基础",
-        link: "/docs/go.md",
-      },
-      {
-        text: "开源社区入门指南",
-        link: "/docs/open.md",
-      },
-    ],
+    },
   },
 })
