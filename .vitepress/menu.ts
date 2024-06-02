@@ -41,6 +41,9 @@ export const menu: DefaultTheme.Sidebar = [
       {text: "6.3 macOS安装Xcode", link: "/docs/flutter/xcode.md"},
       {text: "6.4 macOS安装CocoaPods", link: "/docs/flutter/pods.md"},
       {text: "6.5 macOS安装Flutter", link: "/docs/flutter/macos.md"},
+      {text: "6.6 Flutter创建项目", link: "/docs/flutter/create.md"},
+      {text: "6.6 Flutter热重载", link: "/docs/flutter/reload.md"},
+      {text: "6.7 Flutter网页调试", link: "/docs/flutter/web.md"},
     ],
   },
   {
@@ -56,6 +59,8 @@ export const menu: DefaultTheme.Sidebar = [
       {text: "8.3 如何贡献代码(PRs)", link: "/docs/open/prs.md"},
       {text: "8.4 仓库自述文件(readme)", link: "/docs/open/readmes.md"},
       {text: "8.5 更改记录文件(changelog)", link: "/docs/unfinished.md"},
+      {text: "8.6 组织内部版本杂谈", link: "/docs/unfinished.md"},
+      {text: "8.7 搭建VitePress文档", link: "/docs/open/vitepress.md"},
     ],
   },
 ]
