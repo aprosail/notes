@@ -137,7 +137,7 @@ export const menu: DefaultTheme.Sidebar = [
       {text: "7.2 macOS安装Go"},
       {text: "7.3 Docker基本操作"},
       {text: "7.4 Docker安装Go"},
-      {text: "7.5 VSCode连接Docker进行开发"},
+      {text: "7.5 VSCode连接Docker"},
       {text: "7.6 Go搭建极简服务器"},
       {text: "7.7 Go WebSocket"},
     ],
