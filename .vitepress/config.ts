@@ -48,7 +48,7 @@ export default defineConfig({
       text: "最近更新时间",
       formatOptions: {
         dateStyle: "medium",
-        timeStyle: "medium",
+        timeStyle: "short",
         forceLocale: true,
       },
     },
