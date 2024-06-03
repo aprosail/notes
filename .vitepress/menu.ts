@@ -15,6 +15,7 @@ export const menu: DefaultTheme.Sidebar = [
   {
     text: "1. 代码编辑器",
     link: "/docs/editor.md",
+    items: [{text: "1.1 安装和配置VisualStudio", link: "/docs/editor/vs.md"}],
   },
   {
     text: "2. 版本控制系统",
