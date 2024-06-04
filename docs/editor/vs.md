@@ -1,4 +1,3 @@
-<script setup lang="ts">import Bilibili from '/tools/Bilibili.vue';</script>
 <Bilibili vid="BV17A4m1P7t3" />
 
 1. 可以通过应用商店下载，但不推荐，建议还是通过官网下载安装器(installer)。

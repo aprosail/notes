@@ -1,4 +1,3 @@
-<script setup lang="ts">import Bilibili from '/tools/Bilibili.vue';</script>
 <Bilibili vid="BV1jm411o7tq" />
 
 1. 代码(code)的本质是文本(text)。
