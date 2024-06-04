@@ -1,4 +1,35 @@
 /**
+ * @param raw maybe parsed from markdown with white space for soft line break.
+ * @returns resolved string: delete unnecessary spaces between Chinese chars.
+ */
+export function resolveChineseSpaces(raw: string) {
+  let counter = 0
+  const handler: string[] = []
+  detectSpaces(raw)?.forEach(function (index) {
+    if (index == 0 || index == raw.length - 1) return
+    const before = raw.charCodeAt(index - 1)
+    const after = raw.charCodeAt(index + 1)
+    if (isChineseChar(before) && isChineseChar(after)) {
+      handler.push(raw.substring(counter, index))
+      counter = index + 1
+    }
+  })
+  handler.push(raw.substring(counter))
+  return handler.join("")
+}
+
+/** Global variable to reduce unnecessary computes. */
+const spaceCode = " ".charCodeAt(0)
+
+export function detectSpaces(raw: string) {
+  const handler: number[] = []
+  for (let index = 0; index < raw.length; index++) {
+    if (raw.charCodeAt(index) === spaceCode) handler.push(index)
+  }
+  return handler
+}
+
+/**
  * @param charCode Use `string.charCodeAt(index)` to get the charCode.
  * @returns whether it is unicode Chinese character or punctuation.
  */
