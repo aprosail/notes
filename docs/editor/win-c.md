@@ -1,4 +1,3 @@
-<script setup lang="ts">import Bilibili from '/tools/Bilibili.vue';</script>
 <Bilibili vid="BV12u4m1T7qj" />
 
 1. VisualStudio内置了MSVC编译器，但仍需配置环境变量后才能同终端调用。

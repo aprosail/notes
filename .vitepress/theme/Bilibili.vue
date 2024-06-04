@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-  //@ts-ignore
   defineProps({vid: {type: String, required: true}})
 </script>
 

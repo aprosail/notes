@@ -1,4 +1,3 @@
-<script setup lang="ts">import Bilibili from '/tools/Bilibili.vue';</script>
 <Bilibili vid="BV1Gp421R7rw" />
 
 1. 不建议按照 [官网安装文档](https://docs.flutter.dev/get-started/install)
