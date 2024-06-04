@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
+    "review": "vitest --run",
+    "test": "vitest",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview"
