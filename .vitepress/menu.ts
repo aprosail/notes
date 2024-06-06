@@ -133,13 +133,9 @@ export const menu: DefaultTheme.Sidebar = [
     text: "7. Go编程语言基础",
     link: "/docs/go.md",
     items: [
-      {text: "7.1 Windows安装Go"},
-      {text: "7.2 macOS安装Go"},
-      {text: "7.3 Docker基本操作"},
-      {text: "7.4 Docker安装Go"},
-      {text: "7.5 VSCode连接Docker"},
-      {text: "7.6 Go搭建极简服务器"},
-      {text: "7.7 Go WebSocket"},
+      {text: "7.1 配置Go开发环境", link: "/docs/go/install.md"},
+      {text: "7.2 Go基础语法入门"},
+      {text: "7.3 Go模块和依赖管理"},
     ],
   },
   {
