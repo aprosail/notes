@@ -33,6 +33,7 @@ Enter file in which to save the key (/Users/yourname/.ssh/id_ed25519): /User/you
 3. `IdentityFile`: 配置的密钥文件路径。
 4. 缩进要对齐，虽然不论2个空格或4个空格都支持，但前后需保持一致。
 5. 配置文件的路径必须写绝对路径，`~/.ssh/xxx`的写法可能会不兼容。
+6. 这些属性的含义通过`man ssh_config`命令都可查看。
 
 ## 配置文件示例
 
