@@ -152,7 +152,7 @@ export const menu: DefaultTheme.Sidebar = [
       {text: "8.4 仓库自述文件(readme)", link: "/docs/open/readmes.md"},
       {text: "8.5 更改记录文件(changelog)"},
       {text: "8.6 分支管理建议"},
-      {text: "8.7 多托管平台密钥管理", link: "/docs/open/keys.md"},
+      {text: "8.7 SSH多密钥管理", link: "/docs/open/keys.md"},
       {text: "8.8 搭建VitePress文档", link: "/docs/open/vitepress.md"},
     ],
   },
