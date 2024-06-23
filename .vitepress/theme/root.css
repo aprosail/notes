@@ -14,3 +14,7 @@ div.vp-doc h2 {
   margin-top: 32px;
   border-top: none;
 }
+
+div.vp-doc div.custom-block p {
+  text-indent: 0;
+}
