@@ -18,19 +18,19 @@ hero:
 
 features:
   - title: 视频教程
-    details: >
+    details: >-
       配套视频教程托管于 Bilibili，
       对每个步骤的原理都有精确讲解，
       便于零基础初学者理解。
 
   - title: 笔记检索
-    details: >
+    details: >-
       网页内置 FindPage 检索功能，
       文档与视频也相互链接，
       便于通过关键字检索查找文档或视频。
 
   - title: 开源免费
-    details: >
+    details: >-
       源代码托管于 GitHub，使用 CC0 知识共享协议，
       任何人都可免费阅读、下载乃至套用模版。
 

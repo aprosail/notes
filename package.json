@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
-    "review": "vitest --run",
-    "test": "vitest",
+    "format.check": "prettier --check .",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview"
@@ -18,10 +17,9 @@
     "vue": "^3.4.27"
   },
   "devDependencies": {
+    "markdown-it-wordless": "^1.1.0",
     "prettier": "^3.2.5",
-    "sass": "^1.77.4",
     "typescript": "^5.4.5",
-    "vitepress": "^1.2.2",
-    "vitest": "^1.6.0"
+    "vitepress": "^1.2.3"
   }
 }
