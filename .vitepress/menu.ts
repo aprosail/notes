@@ -71,7 +71,7 @@ export const menu: DefaultTheme.Sidebar = [
       {text: "3.4 卸载Homebrew"},
       {text: "3.5 macOS上安装Node"},
       {text: "3.6 VSCode插件开发基础", link: "/docs/node/vscode.md"},
-      {text: "3.7 Node包管理引入Prettier", link: "/docs/node/prettier.md"},
+      {text: "3.7 Node包管理器NPM", link: "/docs/node/npm.md"},
       {text: "3.8 引入TypeScript", link: "/docs/node/ts.md"},
       {text: "3.9 Rollup打包工具"},
       {text: "3.10 GitHooks与Husky"},
