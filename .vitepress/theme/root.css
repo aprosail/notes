@@ -11,5 +11,6 @@ div.vp-doc h1 {
 }
 div.vp-doc h2 {
   font-weight: 800;
+  margin-top: 32px;
   border-top: none;
 }
