@@ -127,6 +127,7 @@ export const menu: DefaultTheme.Sidebar = [
       {text: "6.6 Flutter创建项目", link: "/docs/flutter/create.md"},
       {text: "6.7 Flutter热重载", link: "/docs/flutter/reload.md"},
       {text: "6.8 Flutter网页调试", link: "/docs/flutter/web.md"},
+      {text: "6.9 Flutter版本切换", link: "/docs/flutter/version.md"},
     ],
   },
   {
