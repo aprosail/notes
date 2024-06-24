@@ -23,7 +23,7 @@ export const menu: DefaultTheme.Sidebar = [
       {text: "1.5 VSCode下载的网络问题"},
       {text: "1.6 VSCode界面和配置"},
       {text: "1.7 VSCode设置文件"},
-      {text: "1.8 VSCode代码规范化"},
+      {text: "1.8 VSCode代码规范化", link: "/docs/editor/formatter.md"},
       {text: "1.9 Markdown基本语法"},
       {text: "1.10 VSCode优化技巧"},
       {text: "1.11 Unix终端基础"},
