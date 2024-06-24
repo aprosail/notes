@@ -1,9 +1,15 @@
+import {wordless} from "markdown-it-wordless"
 import {defineConfig} from "vitepress"
 import {chineseSearchOptimize, pagefindPlugin} from "vitepress-plugin-pagefind"
 import {icons} from "./icons"
 import {menu} from "./menu"
 
 export default defineConfig({
+  markdown: {
+    config(md) {
+      md.use(wordless)
+    },
+  },
   vite: {
     plugins: [
       pagefindPlugin({
